@@ -1,0 +1,167 @@
+/*文章中的代码展示样式*/
+.code table{
+  margin: 20px auto;
+  width: 750px;
+  border: 1px solid #B7DBF5;
+  background: rgba(239,243,249,0.58);
+}
+.code table tr{
+  font-family: "Consolas","Bitstream Vera Sans Mono","Courier New",Courier,monospace !important;font-family: "Consolas","Bitstream Vera Sans Mono","Courier New",Courier,monospace !important;
+}
+.code table tr td:first-child{
+  width: 45px;
+  text-align: center;
+  border-right: 1px solid #B7DBF5;
+  background: #EAF3FB;
+  padding: 5px 0;
+  color: #8F9EBB;
+}
+.code table tr td:last-child div{
+  color: #756A7B;
+  border: 1px solid rgba(239,243,249,0.58);
+  margin: 0 12px;
+  padding: 5px 0;
+}
+.code table tr td:last-child:hover div{
+  border: 1px solid #B7DBF5;
+}
+.content{
+  margin-top: 25px;
+}
+/*.c_left(内容左边区域)样式*/
+.c_left{
+  width: 850px;
+  background-color: #fff;
+  border: 1px solid #D7E6E6;
+}
+.c_left h1{
+  margin-top: 35px;
+  text-align: center;
+  color: #6C7A78;
+  font-size: 18px;
+}
+.c_left .info{
+  width: 750px;
+  padding: 35px 0;
+  margin: 0 auto;
+  border-bottom: 1px solid #D7E6E6;
+}
+.c_left .info span{
+  padding: 5px 3px;
+  text-align: center;
+  font-size: 12px;
+  color: #6C7A78;
+}
+.c_left .info span:nth-child(2n){
+  text-align: center;
+  font-size: 12px;
+  color: #aaa;
+}
+.c_left .info span:first-child{
+  margin-left: 240px;
+}
+.c_left .con{
+  width: 750px;
+  margin: 0 auto;
+}
+.c_left .con h3{
+  color: #6C7A78;
+  margin:20px 0 10px 0;
+  font-weight: bold;
+}
+.c_left .con p{
+  margin-top: 5px;
+  color: #6C7A78;
+  font: 14px/1.5 "Microsoft Yahei";
+  text-indent: 2em;
+}
+/*内容 最后部分*/
+.con_last{
+  border-top: 1px solid #D7E6E6;
+  width: 750px;
+  margin: 150px auto 50px;
+  padding: 15px 0 50px 0;
+}
+.con_last div{
+  text-align: center;
+  color: #46916f;
+
+}
+.con_last div a h2{
+  color: #46916f;
+  font-size: 14px;
+  padding: 5px 0
+}
+.con_last .l_prev{
+  width: 42%;
+}
+.con_last .l_center{
+  cursor: pointer;
+  width: 15%;
+  border: 1px solid #D7E6E6;
+  border-radius: 25px;
+  padding: 15px 0;
+}
+.con_last .l_center i{
+  margin-right: 8px;
+}
+.con_last .l_next{
+  width: 42%;
+}
+/*.c_right(内容右边区域)样式*/
+.c_right{
+  width: 300px;
+  background-color: #fff;
+  margin-right: 25px;
+}
+.c_right .r_t{
+  color: #6C928F;
+  padding: 5px 0 5px 15px;
+  background-color: #F2F7F6;
+  border-bottom: 1px solid #D7E6E6;
+}
+.c_right .r_con{
+  width: 300px;
+  height: 25px;
+  background-color: #ccc;
+}
+.c_right .zanwei{
+  width: 300px;
+  height: 150px;
+}
+/*输入文本框*/
+.contentbox{width: 300px;margin: 0 auto;position: relative;}
+.contentbox textarea{width: 278px;height: 50px;overflow: auto;border: 0;outline: none;padding: 10px;border-radius: 3px;font-family: "微软雅黑";font-size: 12px;}
+.contentbox .ca{padding: 5px 15px;display: inline-block;border-radius: 5px;background: #F0F8F8;border: 1px solid #E3EEEE;margin:6px 17px;}
+.contentbox .ca:hover{color: #fff;background: #B7DBF5;}
+.contentbox .send{position: absolute;right: 10px;bottom: 0;}
+.contentbox span.alt{position: absolute; right: 10px;top: 46px;color: #ccc;font-size: 12px;}
+.contentbox span.alt #num{color: orchid;}
+.contentbox #cbox{position: relative;}
+.contentbox #cbox .abox{width: 300px;}
+.contentbox #cbox #bqbox{width: 300px;display: none;position: absolute;z-index: 2;}
+.contentbox #cbox #bqbox li{float: left;border: 1px solid #F0F8F8;background: #F0F8F8;}
+.contentbox #cbox #bqbox li:hover{border-color: #B7DBF5;}
+.contentbox #cbox #bqbox li img{width: 21px;height: 21px;padding: 5px;}
+/*评论显示区域*/
+.disbox{
+  margin-top: 25px;
+}
+#cdiv .pbox{
+  margin-top: 25px;
+  color: #6C7A78;
+}
+#cdiv .discussant img{
+  width: 50px;height: 50px;border: 2px solid #F0F8F8;border-radius: 50%;margin-left: 10px;
+}
+#cdiv .p_con{width: 200px;line-height: 30px;padding-left: 5px;background:#fff;border: 1px solid #F0F8F8;margin-left: 12px;background-color: #fff;}
+#cdiv .p_con img{vertical-align: middle;padding-left: 5px;width: 21px;height: 21px;}
+#cdiv .p_con .p_name i{
+      width: 8px;
+      height: 16px;
+      display: inline-block;
+      position: relative;
+      left: -16px;
+      color: #f0f8f8;
+      background: #fff;
+}

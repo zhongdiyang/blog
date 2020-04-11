@@ -1,0 +1,145 @@
+/*
+ * 前端小记页面
+*/
+/*分类模块样式*/
+.filter{
+	padding: 15px 0 20px 0;
+	border-bottom: 1px solid #ccc;
+}
+.filter .f_con{
+	width: 79%;
+	border-right: 1px solid #ccc;
+}
+.filter .f_con .row{
+	padding: 5px 8px;
+}
+.filter .f_con .row .label{
+	width: 70px;
+	color: #6C928F;
+	padding: 6px 0; 
+	font-weight: bold;
+	text-align: right;
+}
+.filter .f_con .row .items{
+	overflow: hidden;
+	margin-left: -70px;
+}
+.filter .f_con .row .items li{
+	color: #909B99;
+	float: left;
+	padding: 6px 16px;
+	cursor: pointer;
+}
+.filter .f_search{
+	width: 20%;
+	margin-top: 30px;
+	position: relative;
+}
+.filter .f_search .s_box{
+	width: 212px;
+	margin: 0 auto; 
+ 	border: 1px solid #D2E4E0;
+}
+.filter .f_search .s_box .search input{
+	border: 0;
+	border-right: 1px solid #D2E4E0;
+	padding: 6px 10px;
+}
+.filter .f_search .s_box a{
+	display: inline-block;
+	padding: 6px 11px;
+	background-color: #EAF6F5;
+}
+.filter .f_search .s_box a i{
+	font-size: 14px;
+}
+.filter .f_search .labels{
+	width: 212px;
+	margin: 4px auto;
+}
+.filter .f_search .labels span{
+	color: #6C928F;
+	font-size: 14px;
+	font-weight: bold;
+}
+.filter .f_search .labels a{
+	color: #909B99;
+	padding: 0 5px;
+	font-size: 12px;
+}
+/*内容模块样式*/
+.content .conbox{
+	margin-top: 15px;
+}
+.content .conbox li{
+	width: 50%;
+	float: left;
+}
+.content .conbox li .item{
+	border: 1px solid #DAE7E7;
+	margin: 15px;
+	overflow: hidden;
+	transform: scale(1);
+	transition: all .6s;
+}
+.content .conbox li .item:hover{
+	overflow: hidden;
+	transform: scale(.98);
+	transition: all .6s;
+}
+.content .conbox li .item i{
+	margin-left: 6px;
+}
+.content .conbox li .header{
+	padding: 10px 6px;
+	background: #F2FAF9;
+	border-bottom: 1px solid #DAE7E7;
+	margin-bottom: 20px; 
+}
+.content .conbox li .header h2{
+	float: left;
+}
+.content .conbox li .header h2 a:hover{
+	text-decoration: underline;
+}
+.content .conbox li .header span{
+	background-color:  #9ED9DC;
+	border-radius: 27% 39% 28% 21%;
+	padding-right: 3px;
+	float: right;
+}
+.content .conbox li .item .img img{
+	float: left;
+	margin: 0 0 12px 12px;
+	width: 200px;
+	height: inherit;
+	border-radius: 6px;
+	box-shadow: 0 0 5px #9ED9DC;
+	transform: scale(1);
+	transition: all .6s;
+}
+.content .conbox li .item:hover .img img{
+	transform: scale(1.05);
+	transition: all .6s;
+}
+.content .conbox li .item .des{
+	margin: 0 12px 0 228px;
+	text-indent: 2em;
+	color: #A5AFAE;
+}
+.content .conbox li .item .des .con{
+	height: 114px;
+}
+.content .conbox li .item .detial{
+	clear: both;
+	border-top: 1px solid #DAE7E7;
+	margin: 0 12px;
+	padding: 10px 5px;
+	overflow: hidden;
+}
+.content .conbox li .item .detial i,.content .conbox li .item .detial span{
+	color: #ccc;
+}
+.content .conbox li .item .detial a{
+	color: #54504C;
+}
